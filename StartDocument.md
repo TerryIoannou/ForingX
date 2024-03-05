@@ -86,6 +86,7 @@ The following design patterns will be utilized in ForingX:
 - **Observer:** For updating the visualization module with new data.
 - **Strategy:** For implementing different analysis strategies (e.g., moving average, trend analysis).
 
+
 ## Additional Functionalities
 
 ### Threading and Concurrency
