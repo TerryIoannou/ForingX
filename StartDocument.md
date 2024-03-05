@@ -81,11 +81,9 @@ Users can import data in the following formats:
 ## Design Patterns used
 
 The following design patterns will be utilized in ForingX:
-
+(Add the Design)
 - **Factory Method:** For creating instances of data input forms and analysis modules.
 - **Observer:** For updating the visualization module with new data.
 - **Strategy:** For implementing different analysis strategies (e.g., moving average, trend analysis).
 
----
 
-This template provides a structured approach to your application's documentation, helping you to outline its features, functionality, and design aspects clearly. You can further refine it by adding specific details about your implementation, including the design patterns you plan to use.
