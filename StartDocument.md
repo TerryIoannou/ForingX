@@ -1,8 +1,8 @@
-# Foring
+# ForingX
 
 ## Introduction
 
-Foring is a stock data analysis application designed to help users make informed investment decisions by analyzing historical stock data and predicting future trends. Users will input specific stock data into the application, which will then analyze the data and visualize it in the form of graphs.
+ForingX is a stock data analysis application designed to help users make informed investment decisions by analyzing historical stock data and predicting future trends. Users will input specific stock data into the application, which will then analyze the data and visualize it in the form of graphs.
 
 ### About the developers
 
@@ -16,7 +16,7 @@ This application is being developed as a part of the Year 3, Period 3 courses at
 
 ## Description
 
-Foring is inspired by the concept of analyzing stock data to make predictions, similar to various financial analysis tools available in the market. Users will be able to input specific stock data into the application, and based on that data, Foring will provide visual analysis in the form of graphs, helping users to understand trends and potentially predict future stock movements.
+ForingX is inspired by the concept of analyzing stock data to make predictions, similar to various financial analysis tools available in the market. Users will be able to input specific stock data into the application, and based on that data, Foring will provide visual analysis in the form of graphs, helping users to understand trends and potentially predict future stock movements.
 
 ### General Specifications:
 
