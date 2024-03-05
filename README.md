@@ -6,4 +6,6 @@ Project Summary:
 Development Team:
 
 Terry Ioannou: Student at NHL Stenden University of Applied Sciences (Student ID: 4976355, Email: terry.ioannou@student.nhlstenden.com)
+
+
 David Hlavacek: Student at NHL Stenden University of Applied Sciences (Student ID: [ID], Email: [Teammate 1 Email])
