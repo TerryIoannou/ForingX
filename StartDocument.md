@@ -12,7 +12,6 @@ This application is being developed as a part of the Year 3, Period 3 courses at
 | :----------------: | :--------: | :---------------------------------------: |
 | Terry Ioannou      |  4976355   |   terry.ioannou@student.nhlstenden.com    |
 | David Hlavacek     |  [ID]      | [Teammate 1 Email]                        |
-| 
 
 ## Description
 
@@ -63,10 +62,9 @@ ForingX is inspired by the concept of analyzing stock data to make predictions, 
 
 ### Input
 
-|        Case         |   Type   | Conditions |
-| :-----------------: | :------: | :--------: |
-| Stock Symbol        | `String` | not empty  |
-| Historical Data     | `Array`  | not empty  |
+Users can import data in the following formats:
+- CSV files
+- JSON files
 
 ### Output
 
@@ -82,7 +80,11 @@ ForingX is inspired by the concept of analyzing stock data to make predictions, 
 
 ## Design Patterns used
 
-*To be updated*
+The following design patterns will be utilized in ForingX:
+
+- **Factory Method:** For creating instances of data input forms and analysis modules.
+- **Observer:** For updating the visualization module with new data.
+- **Strategy:** For implementing different analysis strategies (e.g., moving average, trend analysis).
 
 ---
 
