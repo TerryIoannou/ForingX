@@ -81,9 +81,35 @@ Users can import data in the following formats:
 ## Design Patterns used
 
 The following design patterns will be utilized in ForingX:
-(Add the Design)
+
 - **Factory Method:** For creating instances of data input forms and analysis modules.
 - **Observer:** For updating the visualization module with new data.
 - **Strategy:** For implementing different analysis strategies (e.g., moving average, trend analysis).
+
+## Additional Functionalities
+
+### Threading and Concurrency
+
+- Basic threading will be utilized for performing tasks concurrently, such as data fetching and processing.
+- Locking mechanisms will ensure data integrity when multiple threads access shared resources.
+- Semaphores will control access to limited resources, managing resource usage efficiently.
+- The thread pool will be used for managing concurrent tasks efficiently, especially for short-lived tasks or asynchronous operations.
+
+### Task-Based Programming and Asynchronous Operations
+
+- Task-based programming, including basic task creation and the `await` operator, will be used for asynchronous operations such as data fetching and IO operations.
+- Async IO operations will be employed for non-blocking IO operations, ensuring responsiveness of the application during IO-bound tasks.
+
+### LINQ, PLINQ, and Async on the Database
+
+- LINQ and PLINQ will be used for querying and processing data efficiently, with PLINQ providing parallel execution for improved performance.
+- Asynchronous database operations will enable non-blocking database access, ensuring responsiveness while waiting for database responses.
+
+## Additional Implementation Details
+
+- ForingX will utilize C# .NET 8.0 or higher for its development, ensuring access to the latest features and enhancements.
+- Integration of .NET Maui will be explored for cross-platform compatibility and enhanced user experience.
+- The development of a clean GUI will be prioritized to ensure seamless program operation and user-friendly interaction.
+- Version control will be incorporated using tools like Git to track changes, collaborate effectively, and manage project versions efficiently.
 
 
